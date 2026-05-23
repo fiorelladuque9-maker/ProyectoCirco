@@ -5,4 +5,4 @@ class Administrador:
         self.telefone = telefone
 
     def __str__(self):
-        return f"Administrador: {self.nome}, Email: {self.email}, Telefone: {self.telefone}"
+        return f"Administrador: {self.nome} | Email: {self.email} | Telefono: {self.telefone}"

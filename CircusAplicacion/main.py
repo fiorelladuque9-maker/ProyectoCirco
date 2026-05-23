@@ -1,18 +1,15 @@
-class Main:
-    def __init__(self):
-        self.clientes = []
-        self.administradores = []
+from Controller.controlador import Controlador
+from Repository.repositorio import Repositorio
+from View.vista import Vista
 
-    def adicionar_cliente(self, cliente):
-        self.clientes.append(cliente)
 
-    def adicionar_administrador(self, administrador):
-        self.administradores.append(administrador)
+def main():
+    repositorio = Repositorio()
+    vista = Vista()
+    controlador = Controlador(repositorio, vista)
 
-    def listar_clientes(self):
-        for cliente in self.clientes:
-            print(cliente)
+    controlador.iniciar()
 
-    def listar_administradores(self):
-        for administrador in self.administradores:
-            print(administrador)
+
+if __name__ == "__main__":
+    main()

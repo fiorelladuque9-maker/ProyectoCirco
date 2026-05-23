@@ -5,4 +5,4 @@ class Cliente:
         self.telefone = telefone
 
     def __str__(self):
-        return f"Cliente: {self.nome}, Email: {self.email}, Telefone: {self.telefone}"
+        return f"Cliente: {self.nome} | Email: {self.email} | Telefono: {self.telefone}"
