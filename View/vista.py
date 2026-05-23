@@ -7,7 +7,7 @@ class Vista:
         print("4. Sair")
 
     def obter_opcao(self):
-        return input("Escolha uma opção: ")
+        return input("Escolha uma asd: ")
 
     def mostrar_mensagem(self, mensagem):
         print(mensagem)
