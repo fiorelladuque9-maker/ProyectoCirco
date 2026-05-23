@@ -15,4 +15,4 @@ class Controlador:
 
     def listar_administradores(self):
         for administrador in self.administradores:
-            print(administrador)
+            print(administrador,"holaaaa")
